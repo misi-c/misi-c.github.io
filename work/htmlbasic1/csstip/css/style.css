@@ -8,6 +8,11 @@
     src:url("fonts/oswald/Oswald-ExtraLight.ttf");
     font-weight: : 200;
 }
+@font-face {
+    font-family: "MC";
+    src:url("fonts/MC/MC.ttf");
+    font-weight: : 200;
+}
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 html {
@@ -17,7 +22,7 @@ html {
 
 h1 {
     color:blue;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:MC, Helvetica, sans-serif;
     text-align:justify;
 }
 h3 {
@@ -39,6 +44,27 @@ h3 {
     line-height: 20px;
     font-weight: 300;
 }
+
+.button {
+    background-color: #86aa04; /* Green */
+    border: 5px;
+    color: rgb(240, 131, 29);
+    padding: 12px;
+    text-align: center;
+    text-decoration: dotted;
+    display: inline-block;
+    font-size: 22px;
+    margin: 33px 6px;
+    cursor: pointer;
+  }
+
+  .button1 {border-radius: 2px;border: 2px solid #4CAF50; /* Green */}
+  .button2 {border-radius: 4px;}
+  .button3 {border-radius: 8px;}
+  .button4 {border-radius: 12px;}
+  .button5 {border-radius: 50%;border: 2px solid #4CAF50; /* Green */}
+
+
 .bold {
     font-weight:bold;
 }
