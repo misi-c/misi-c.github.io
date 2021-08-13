@@ -13,6 +13,11 @@
     src:url("fonts/MC/MC.ttf");
     font-weight: : 200;
 }
+@font-face {
+    font-family: "ca";
+    src:url("fonts/ca/ca.ttf");
+    font-weight: : 200;
+}
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 html {
@@ -29,7 +34,14 @@ h1 {
     color:blue;
     font-family:MC, Helvetica, sans-serif;
     text-align:justify;
-    font-weight: ;
+    font-weight:500 ;
+}
+.ca {
+    color:blue;
+    font-family:ca;
+    text-align:justify;
+    font-weight:100 ;
+    text-transform: none;
 }
 h3 {
     font-family: 'Roboto',sans-serif;
