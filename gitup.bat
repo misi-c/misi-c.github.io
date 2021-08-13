@@ -3,4 +3,4 @@ git commit -m "new commit"
 git pull
 git push
 git status
-git diff
+echo "FINISHED GITHUB GITUP.CMD"
