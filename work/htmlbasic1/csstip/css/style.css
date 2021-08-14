@@ -110,6 +110,28 @@ img {
     height: 100px;
 }
 
+
+
+html {
+    background-image: url("../img/cloudbg.gif");
+ /* background-position: left center;
+    background-repeat: repeat-x; vizszintes ismétlés
+    background-repeat: repeat-y; /*függőleges ismétlés*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* comment 
 2 es számrendszer: 01
 3 as számrendszer: 012
