@@ -31,13 +31,14 @@ h1 {
     text-align:justify;
 }
 .mc {
-    color:blue;
+    color:rgb(7, 7, 31);
     font-family:MC, Helvetica, sans-serif;
     text-align:justify;
-    font-weight:500 ;
+    font-weight:bold ;
+    background-color: chocolate;
 }
 .ca {
-    color:blue;
+    color:rgb(36, 36, 235);
     font-family:ca;
     text-align:justify;
     font-weight:100 ;
@@ -108,3 +109,16 @@ h3 {
 img {
     height: 100px;
 }
+
+/* comment 
+2 es számrendszer: 01
+3 as számrendszer: 012
+10 es számrendszer: 0123456789
+16 os számrendszer: 0123456789ABCDEF
+
+255 (10) = FF (16)
+
+(10) 255 = 2*100 + 5*10 + 5*1
+(16) FF  = F*16 + F*1 = 15*16 + 15*1 = 255
+
+rgb(255,255,255) = #FFFFFF */
