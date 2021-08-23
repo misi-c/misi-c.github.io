@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <title>Document</title>
+    <title>Megrendelés</title>
 </head>
 
 <body>
@@ -62,20 +62,36 @@
     automatikus illeszkedés kicsi - közepes - nagy kijelző-->
     <div class="container">
         <div class="row">
-            <div class="col">
-                <button type="button" class="btn btn-primary">Primary</button>
-                <button type="button" class="btn btn-secondary">Secondary</button>
-                <button type="button" class="btn btn-success">Success</button>
-                <button type="button" class="btn btn-danger">Danger</button>
-                <button type="button" class="btn btn-warning">Warning</button>
-                <button type="button" class="btn btn-info">Info</button>
-                <button type="button" class="btn btn-light">Light</button>
-                <button type="button" class="btn btn-dark">Dark</button>
-                
-                <button type="button" class="btn btn-link">Link</button>
+            <div class="col-3"></div>
+            <div class="col-6">
+                <h3>Hamburger rendelés</h3>
+                <form action="">
+                    <div class="form-group">
+                        <label for="">Feltét</label><br>
+                        <input type="text" name="top-input" class="form-controll">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Mennyiség</label><br>
+                        <input type="number" name="amount-input" class="form-controll" value="0">
+                        <br>
+                        <small class="form-text text-muted">
+                            Minimum 1, maximum 10 db
+                            <br> 5000 Ft alatt 500 Ft 
+                            <br>szállítási költség van
+                        </small>
+                    </div>
+                    <div class="form-group">
+                        Fizetendő: <span class="show-amount">0</span>Ft
+                    </div>
+                    <button onclick="calcAmount()"type="button" class="btn btn-primary">Megrendelés</button>
+                </form>
             </div>
+            <div class="col-3"></div>
         </div>
     </div>
+    <script src="js/main.js"></script>
+    <!-- <script src="js/scope.js"></script> -->
+    <script src="js/algo.js"></script>
 </body>
 
 </html>
