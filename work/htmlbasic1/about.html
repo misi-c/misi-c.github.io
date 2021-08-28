@@ -5,60 +5,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abut</title>
+    <link rel="stylesheet" href="lib/bootstrap-5.1.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="stylesheet" href="css/selectors.css">
+    <title>About</title>
 </head>
 
 <body>
-    <ul>
-        <li>
-            <a href="/">Home</a>
-        </li>
-        <li>
-            <a href="/pages/products.html">Products</a>
-        </li>
-        <li>
-            <a href="/pages/orders.html">Orders</a>
-        </li>
-        <li>
-            <a href="/about.html">About</a>
-        </li>
-    </ul>
-    <h1>About</h1>
+    <div class="container">
+        <!--gyors gépelés: .container , enter-->
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <table id="userTable" class="table table-striped table-hover">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Vezetéknév</th>
+                            <th>Keresztnév</th>
+                            <th>Életkor</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!--táblázat sor-->
+                        
 
-    <table>
-        <caption>Opening Hours</caption>
-        <thead>
-            <tr>
-                <th>Day</th>
-                <th>Open</th>
-                <th>Close</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Monday - Friday</td>
-                <td>09:00</td>
-                <td rowspan="2">21:00</td>
-            </tr>
-            <tr>
-                <td>Saturday</td>
-                <td>10:00</td>
-            </tr>
-            <td>Sunday</td>
-            <td colspan="2">Closed</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <td colspan="3">
-                    &copy; 2019
-                </td>
-            </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-2"></div>
+        </div>
+    </div>
 
-        </tfoot>
-
-
-    </table>
+    <script src="js/about.js"></script>
 
 
 </body>

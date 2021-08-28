@@ -65,34 +65,32 @@
             <div class="col-3"></div>
             <div class="col-6">
                 <h3>Hamburger rendelés</h3>
-                <form action="">
-                    <div id="fentisor" class="form-group">
+                <form id="orderForm" action="">
+                    <div class="form-group">
                         <label for="">Feltét</label><br>
                         <input id="topInput" type="text" name="top-input" class="form-controll">
                     </div>
                     <div class="form-group">
-                        <label for="">Mennyiség</label><br>
-                        <input type="number" name="amount-input" class="form-controll" value="0">
-                        <br>
+                        <label for="">Mennyiség</label>
+                        <input type="number" name="amount-input" class="form-controll" value="1">
                         <small class="form-text text-muted">
                             Minimum 1, maximum 10 db
-                            <br> 5000 Ft alatt 500 Ft 
-                            <br>szállítási költség van
                         </small>
                     </div>
                     <div class="form-group">
                         Fizetendő: <span class="show-amount">0</span>Ft
                     </div>
-                    <button onclick="calcAmount()"type="button" class="btn btn-primary">Megrendelés</button>
+                    <button type="submit" class="btn btn-primary">Megrendelés</button>
                 </form>
             </div>
             <div class="col-3"></div>
         </div>
     </div>
     <script src="js/main.js"></script>
-    <!-- <script src="js/scope.js"></script> -->
+    <script src="js/scope.js"></script>
     <script src="js/algo.js"></script>
     <script src="js/massmodify.js"></script>
+    <script src="js/checksize.js"></script>
 </body>
 
 </html>
