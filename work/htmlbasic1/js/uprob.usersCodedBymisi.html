@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+        <title>Hello, World!</title>
+    </head>
+    <body>
+        <script type="text/javascript" charset="utf-8">
+            
+console.log(`----USERS----`)
+        let users = {
+  1: 'Name : Jancsi ,email:ema@gug.bla,age: 32',
+  2: 'geze, imail@citron',
+  3: 'loko',
+  4: '',
+  5: 'Anita , csontosanita@email.com',
+  6: '',
+  7: '',
+  8: 'furge , kutya'
+};
+
+for (var [key, value] of Object.entries(users)) {
+ //   if (value) {
+  console.log(`${key}: ${value}`)
+ //   }
+};
+console.log(`------FELADAT------`);
+
+
+console.log(`KÉRD LE A TARTALOMMAL RENDELKEZő USER INDEX eket`);
+
+for (var [key, value] of Object.entries(users)) {
+    if (value) {
+  console.log(`----[ ${key} ]----`)
+    }
+};
+console.log(`------FELADAT------`);
+
+console.log(`KÉRD LE A TARTALOM NÉLKÜLI USER INDEX eket`);
+
+for (var [key, value] of Object.entries(users)) {
+    if (!value) {
+  console.log(`----[ ${key} ]----`)
+    }
+};
+
+/*
+for (const i in users) {
+  if (users.hasOwnProperty(i)) {
+    console.log(i); // logs "0", "1", "2", "foo"
+  }
+};
+
+*/
+</script>
+    </body>
+</html>
