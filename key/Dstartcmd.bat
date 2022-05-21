@@ -1,1 +1,0 @@
-%windir%\system32\cmd.exe /k "cd D:\misiweb\misi-c.github.io & D:"
