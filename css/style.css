@@ -1,0 +1,156 @@
+@font-face {
+    font-family: "MC";
+    src:url("fonts/MC/MC.ttf");
+   // font-weight: : 200;
+}
+@font-face {
+    font-family: "ca";
+    src:url("fonts/ca/ca.ttf");
+   // font-weight: : 200;
+}
+
+#t1header {
+    color:rgb(7, 250, 250);
+    font-family:MC, Helvetica, sans-serif;
+}
+#t2header {
+    color:rgb(155, 255, 170);
+    font-family:MC, Helvetica, sans-serif;
+}
+.form1 {
+    font-size: 120%;
+    color:rgb(200,250,250);
+    text-align: left;
+    font-family:CA, Helvetica, Arial, sans-serif;
+}
+.form2 {
+    font-size: 120%;
+    font-weight: normal;
+    color:rgb(200,250,250);
+    text-align: left;
+    font-family:CA, Helvetica, Arial, sans-serif;
+}
+.form3 {
+    font-size: 120%;
+    font-weight: bolder;
+    color:rgb(200,250,250);
+    text-align:left;
+    font-family:CA, Helvetica, Arial, sans-serif;
+}
+.form4 {
+    font-size: 100%;
+    font-weight: bolder;
+    font-style: oblique;
+    /*color:blue; */
+    color: rgb(200,200,250);
+    text-align: left;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.form5 {
+    font-weight: bolder;
+    font-size: 100%;
+    color: rgb(100,100,255);
+    text-align: left;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.form6 {
+    font-size: 200%;
+    color:blue;
+    text-align: center;
+    font-family:CA, Helvetica, Arial, sans-serif;
+}
+
+.form7 {
+    font-weight: bold;
+    font-size: 80%;
+    color:rgb(155,99,255);
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.gomb1 {
+    font-family:CA, Helvetica, sans-serif;
+    background-color: hsla(214, 79%, 50%, 0.535); /* Green */
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(255,0,255);
+    color: rgb(25,0,25);
+    padding:0;
+    text-align: center;
+    display: inline-block;
+    font-size:xx-large;
+    font-weight: bolder;
+    /*margin: 24px 2px;*/
+    margin-left: 3%;
+    cursor: pointer;
+    border-radius: 46%;
+  }
+.gomb2 {
+    font-family:CA, Helvetica, sans-serif;
+  background-color: hsla(214, 79%, 50%, 0.535);
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(255,0,255);
+    color: rgb(25,0,25);
+    padding:0;
+    text-align: center;
+    display: inline-block;
+    font-size:xx-large;
+    font-weight: bolder;
+    /* margin: 24px 2px; */
+    margin-left: 2%;
+    cursor: pointer;
+    /* border-radius: 24px; */
+    border-radius: 46%;
+  }
+  
+.gomb3 {
+    font-family:CA, Helvetica, sans-serif;
+  background-color: hsla(214, 79%, 50%, 0.535);
+    border: 1px;
+    border-radius: 46%;
+    border-style: solid;
+    border-color: rgb(255,0,255);
+    color: rgb(25,0,25);
+    text-align: center;
+    font-size:xx-large;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-left: 2%;
+    /*margin-left: 5%;*/
+    /*float: right;*/
+  }
+.container {
+    border-color: slateblue;
+    border-width: 2px;
+    border-radius: 15px;
+    border-style: solid;
+    background-color: black;
+}
+.fejlec {
+    border-color: rgb(4,255,12);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 46px;
+    background-image: url(../img/bubble1.jpg);
+    
+}
+.fokep {
+  position: relative;
+  text-align: center;
+  border-radius: 14%;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+/*  color: blue; */
+}
+.bemutat {
+    font-size: 120%;
+    color: rgb(200,100,255);
+    text-align: left;
+    font-family: Helvetica, Arial, sans-serif;
+}
