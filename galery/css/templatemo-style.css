@@ -503,14 +503,28 @@ h5 {
 }
 
 .post-masonry .post-thumb:hover .title-over {
-    -webkit-transition: all 150ms ease-in-out;
-    -moz-transition: all 150ms ease-in-out;
-    -ms-transition: all 150ms ease-in-out;
-    -o-transition: all 150ms ease-in-out;
-    transition: all 150ms ease-in-out;
-    visibility: hidden;
-    opacity: 0;
-    bottom: -50px;
+    -webkit-transition: all 460ms ease-in-out;
+    -moz-transition: all 460ms ease-in-out;
+    -ms-transition: all 460ms ease-in-out;
+    -o-transition: all 460ms ease-in-out;
+    transition: all 460ms ease-in-out;
+    visibility: visible;
+    opacity: 1;
+    bottom: +90%;
+    
+    -webkit-transition: all 460ms ease-in-out;
+    -moz-transition: all 460ms ease-in-out;
+    -ms-transition: all 460ms ease-in-out;
+    -o-transition: all 460ms ease-in-out;
+    transition: all 460ms ease-in-out;
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.2);
+    padding: 15px 20px;
+    text-shadow: 2px 2px #990099;
+
 }
 
 .post-masonry .post-thumb:hover .post-hover {

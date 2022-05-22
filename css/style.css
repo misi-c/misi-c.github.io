@@ -150,7 +150,21 @@
 }
 .bemutat {
     font-size: 120%;
-    color: rgb(200,100,255);
+    color: rgb(100,200,255);
     text-align: left;
     font-family: Helvetica, Arial, sans-serif;
+}
+.mskills {
+    color: cyan;
+}
+.contact {
+    color:#9999ff;
+    text-decoration: underline;
+    text-decoration-color: magenta;
+}
+.mail {
+    color: #4444ff;
+}
+.tel {
+    color: #ff55dd;
 }
