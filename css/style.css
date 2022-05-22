@@ -155,16 +155,22 @@
     font-family: Helvetica, Arial, sans-serif;
 }
 .mskills {
-    color: cyan;
+    font-size: 120%;
+    color: rgb(000,222,255);
+    text-align: left;
+    font-family: Helvetica, Arial, sans-serif;
 }
 .contact {
-    color:#9999ff;
+    font-size: 120%;
+    color: rgb(20,255,25);
     text-decoration: underline;
     text-decoration-color: magenta;
 }
 .mail {
-    color: #4444ff;
+    font-size: 120%;
+    color: rgb(000,2,255);
 }
 .tel {
-    color: #ff55dd;
+    font-size: 120%;
+    color: rgb(220,22,255);
 }
