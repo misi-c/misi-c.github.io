@@ -503,6 +503,7 @@ h5 {
 }
 
 .post-masonry .post-thumb:hover .title-over {
+    background: rgba(0,0,0,255);
     -webkit-transition: all 460ms ease-in-out;
     -moz-transition: all 460ms ease-in-out;
     -ms-transition: all 460ms ease-in-out;
